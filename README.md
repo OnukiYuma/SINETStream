@@ -26,9 +26,6 @@ under the License.
 
 ## リンク
 
-* チュートリアル
-    * [クイックスタートガイド (Python/Java版)](docs/tutorial/index.md)
-    * [クイックスタートガイド (Android版)](docs/tutorial-android/index.md)
 * [ユーザガイド](docs/userguide/index.md)
 * [SINETStream性能測定結果](docs/performance/index.md)
 * [プラグイン開発ガイド](docs/developer_guide/index.md)
