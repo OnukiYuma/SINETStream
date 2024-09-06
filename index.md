@@ -76,16 +76,7 @@ FAQのご紹介等の情報提供をさせていただきます。
 
 * [ユーザ登録・問い合わせ先](https://reg.nii.ac.jp/m/sinetstream_user_registration)
 
-## ドキュメント
-
-SINETStreamの仕組みや動作環境などの詳細については以下のリンク先を参照してください。
-* [ドキュメント](README.md)
-
 ## チュートリアル
-
-* [クイックスタートガイド (Python/Java版)](docs/tutorial/index.md)
-* [クイックスタートガイド (Android版)](docs/tutorial-android/index.md)
-* [SINETStreamデモパッケージ](https://github.com/nii-gakunin-cloud/sinetstream-demo)
 
 <div align="center">
 <br/>
