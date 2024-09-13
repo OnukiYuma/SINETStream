@@ -36,11 +36,18 @@
       }
     </script>
     <ul class="ddmenu">
-      {% if !en_flg %}
+      {%
+        test_url = location.pathname;
+        en_flg = false;
+        if (test_url.length >= 8 && test_url.substring(test_url.length - 8) == ".en.html") {
+          en_flg = true;
+        }
+        if !en_flg {
+      %}
         <li>
           <a href="/SINETStream/README.html">英語</a>
         </li>
-      {% else %}
+      {% } else { %}
         <li>
           <a href="/SINETStream/README.html">ドキュメント</a>
         </li>
@@ -71,7 +78,7 @@
             </li>
           </ul>
         </li>
-      {% endif %}
+      {% } %}
     </ul>
 
     <main id="content" class="main-content" role="main">
