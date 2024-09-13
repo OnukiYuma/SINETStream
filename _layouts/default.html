@@ -29,7 +29,7 @@
       {% endif %}
     </header>
     <script>
-      test_url = location.hash;
+      test_url = location.pathname;
       en_flg = false;
       if (test_url.length >= 8 && test_url.substring(test_url.length - 8) == ".en.html") {
         en_flg = true;
