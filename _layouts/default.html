@@ -36,14 +36,7 @@
       }
     </script>
     <ul class="ddmenu">
-      {%
-        test_url = location.pathname
-        en_flg = false
-        if (test_url.length >= 8 && test_url.substring(test_url.length - 8) == ".en.html")
-          en_flg = true
-        endif
-        if !en_flg 
-      %}
+      {% if (location.pathname.length >= 8 && location.pathname.substring(location.pathname.length - 8) == ".en.html") %}
         <li>
           <a href="/SINETStream/README.html">英語</a>
         </li>
