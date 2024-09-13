@@ -29,7 +29,7 @@
       {% endif %}
     </header>
     <ul class="ddmenu">
-      {% if (location.pathname.length >= 8 && location.pathname.substring(location.pathname.length - 8) == ".en.html") %}
+      {% if page.url.slice!(".en.html") %}
         <li>
           <a href="/SINETStream/README.html">英語</a>
         </li>
