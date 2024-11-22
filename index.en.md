@@ -64,7 +64,12 @@ Please register from the link below.
 
 ## Tutorial
 
-* [SINETStream Demo Package](https://github.com/nii-gakunin-cloud/sinetstream-demo/blob/main/README.en.md)
+<div align="center">
+<br/>
+<a href="https://www.youtube.com/watch?v=2Wjjvs3fJ9g">SINETStream Tutorial Demo Video</a>
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2Wjjvs3fJ9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Live demo using the SINETStream
 
