@@ -1,6 +1,0 @@
-- plugins:
-      - i18n:
-            default_language: ja
-            languages:
-                ja: Japanese
-                en: English
