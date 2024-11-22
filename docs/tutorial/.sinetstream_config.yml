@@ -1,0 +1,12 @@
+service-tutorial-kafka:
+    type: kafka
+    brokers: "broker:9092"
+    topic: topic-tutorial-kafka
+    value_type: text
+
+service-tutorial-mqtt:
+    type: mqtt
+    brokers: "broker:1883"
+    topic: topic-tutorial-mqtt
+    value_type: text
+

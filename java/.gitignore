@@ -1,0 +1,11 @@
+.idea/
+.gradle/
+out/
+build/
+*.lck
+repository/
+*.orig
+*~
+\#*#
+.#*
+*.lsif
