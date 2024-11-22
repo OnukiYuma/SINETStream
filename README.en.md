@@ -23,9 +23,6 @@ under the License.
 
 ## Links
 
-* Tutorial
-    * [Quick Start Guide (Python/Java)](docs/tutorial/index.en.md)
-    * [Quick Start Guide (Android)](docs/tutorial-android/index.en.md)
 * [User Guide](docs/userguide/index.en.md)
 * [Performance measurement of SINETStream](docs/performance/index.en.md)
 * [Developer guide](docs/developer_guide/index.en.md)
