@@ -31,15 +31,36 @@
     <ul class="ddmenu">
       {% if page.url contains ".en.html" %}
         <li>
-          <a href="/SINETStream/README.html">英語</a>
+          <a href="/SINETStream/README.en.html">Documents</a>
+        </li>
+        <li>
+          <a href="#">Tutorial &#x25BC;</a>
+          <ul>
+            <li>
+              <a href="#">Quick Start Guide &#x25B6;</a>
+              <ul>
+                <li>
+                  <a href="/SINETStream/docs/tutorial/index.en.html">Python/Java</a>
+                </li>
+                <li>
+                  <a href="/SINETStream/docs/tutorial-android/index.en.html">Android</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">SINETStream &#x25B6;</a>
+              <ul>
+                <li>
+                  <a href="https://github.com/nii-gakunin-cloud/sinetstream-demo">デモパッケージ</a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/watch?v=2Wjjvs3fJ9g">チュートリアルデモ動画</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
       {% else %}
-        <li>
-          <a href="/SINETStream/README.html">{{page.url}}</a>
-        </li>
-        <li>
-          <a href="/SINETStream/README.html">{{page.url[-1]}}</a>
-        </li>
         <li>
           <a href="/SINETStream/README.html">ドキュメント</a>
         </li>
