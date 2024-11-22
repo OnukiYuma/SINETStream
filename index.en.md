@@ -62,10 +62,6 @@ Please register from the link below.
 
 * [User registration & contact](https://reg.nii.ac.jp/m/sinetstream_user_registration)
 
-## Tutorial
-
-* [SINETStream Demo Package](https://github.com/nii-gakunin-cloud/sinetstream-demo/blob/main/README.en.md)
-
 ## Live demo using the SINETStream
 
 * [Live demo of the SINETStream](docs/livedemo/livedemo.en.md)
